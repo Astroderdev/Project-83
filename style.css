@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@300&display=swap');
+.body_background {
+    background-image: url("bg1.jpg");
+    background-position: center; /* body class */
+    background-size: cover;
+  }
+body{
+    cursor: pointer;
+    font-family: 'Georama', sans-serif!important; /* body */
+  }
+h1
+  {
+      color: white!important; 
+      font-size: 40px;   /* title */
+  }
+label{
+      color: white!important; /* labels */
+}
+#myCanvas
+  {
+      border-width:10px;
+      background-color: green;  /* Canvas id */
+      border:10px ridge orange;
+  }
+
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;  /* button for clearing (not only this to all buttons) */
+    padding: 10px 42px;
+    font-size: 16px;
+  }
+
+input
+  {
+    margin-right: 20px; /* inputs */
+  }
+  
